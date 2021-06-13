@@ -1,10 +1,113 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
+  "categories":[
+    {
+      "id" :1,
+      "nama" : "Sayur"
+    },
+    {
+      "id" :2,
+      "nama" : "Bumbu"
+    },
+    {
+      "id" :3,
+      "nama" : "Lauk Pauk"
+    },
+    {
+      "id" :4,
+      "nama" : "Frozen Food"
+    },
+    {
+      "id" :5,
+      "nama" : "Mie"
+    }
+  ],
+    "products": [
+      {
+        "id": 1, 
+        "kode": "K-01",
+        "nama": "Kangkung",
+        "harga":  1500,
+        "is_ready": true,
+        "gambar": "kangkung.jpeg",
+        "category": {
+          "id": 1,
+          "nama": "Sayur"
+
+      }
+    },
+    {
+      "id": 2, 
+        "kode": "K-02",
+        "nama": "Bayam",
+        "harga":  1000,
+        "is_ready": true,
+        "gambar": "bayam.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Sayur"
+        }
+    },
+    {
+      "id": 3, 
+        "kode": "K-03",
+        "nama": "Brokoli",
+        "harga":  7000,
+        "is_ready": true,
+        "gambar": "brokoli.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Sayur"
+        }
+    },
+    {
+      "id": 4, 
+        "kode": "K-04",
+        "nama": "Buncis",
+        "harga":  3000,
+        "is_ready": true,
+        "gambar": "buncis.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Sayur"
+        }
+    },
+    {
+      "id": 5, 
+        "kode": "K-05",
+        "nama": "Kubis",
+        "harga":  3000,
+        "is_ready": true,
+        "gambar": "kobis.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Sayur"
+        }
+    },
+    {
+      "id": 1, 
+        "kode": "B-01",
+        "nama": "Bawang Merah",
+        "harga":  9000,
+        "is_ready": true,
+        "gambar": "bamer.jpg",
+        "category": {
+          "id": 2,
+          "nama": "Bumbu"
+        }
+    },
+    {
+      "id": 2, 
+        "kode": "B-02",
+        "nama": "Bawang Putih",
+        "harga":  4000,
+        "is_ready": true,
+        "gambar": "baput.jpg",
+        "category": {
+          "id": 2,
+          "nama": "Bumbu"
+        }
+    }
+
+    ]
   }
   
