@@ -2,7 +2,7 @@
   "categories":[
     {
       "id" :1,
-      "nama" : "Sayur"
+      "nama" : "Sayuran"
     },
     {
       "id" :2,
@@ -31,7 +31,7 @@
         "gambar": "kangkung.jpeg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
 
       }
     },
@@ -44,7 +44,7 @@
         "gambar": "bayam.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -56,7 +56,7 @@
         "gambar": "brokoli.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -68,7 +68,7 @@
         "gambar": "buncis.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -80,7 +80,7 @@
         "gambar": "kobis.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
