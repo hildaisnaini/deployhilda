@@ -2,7 +2,7 @@
   "categories":[
     {
       "id" :1,
-      "nama" : "Sayur"
+      "nama" : "Sayuran"
     },
     {
       "id" :2,
@@ -31,7 +31,7 @@
         "gambar": "kangkung.jpeg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
 
       }
     },
@@ -44,7 +44,7 @@
         "gambar": "bayam.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -56,7 +56,7 @@
         "gambar": "brokoli.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -68,7 +68,7 @@
         "gambar": "buncis.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -80,7 +80,7 @@
         "gambar": "kobis.jpg",
         "category": {
           "id": 1,
-          "nama": "Sayur"
+          "nama": "Sayuran"
         }
     },
     {
@@ -106,7 +106,105 @@
           "id": 2,
           "nama": "Bumbu"
         }
+    },
+    {
+      "id": 1, 
+        "kode": "L-01",
+        "nama": "Paha Ayam",
+        "harga":  20000,
+        "is_ready": true,
+        "gambar": "ayam.jpg",
+        "category": {
+          "id": 3,
+          "nama": "Lauk Pauk"
+        }
+    },
+    {
+      "id": 2, 
+        "kode": "L-02",
+        "nama": "Tahu",
+        "harga":  5000,
+        "is_ready": true,
+        "gambar": "tahu.jpg",
+        "category": {
+          "id": 3,
+          "nama": "Lauk Pauk"
+        }
+    },
+    {
+      "id": 1, 
+        "kode": "F-01",
+        "nama": "Bakso",
+        "harga":  15000,
+        "is_ready": true,
+        "gambar": "bakso.jpg",
+        "category": {
+          "id": 4,
+          "nama": "Frozen Food"
+        }
+    },
+    {
+      "id": 2, 
+        "kode": "F-02",
+        "nama": "Sosis",
+        "harga":  17000,
+        "is_ready": true,
+        "gambar": "sosis.jpg",
+        "category": {
+          "id": 4,
+          "nama": "Frozen Food"
+        }
+    },
+    {
+      "id": 3, 
+        "kode": "F-01",
+        "nama": "Nugget",
+        "harga":  18000,
+        "is_ready": true,
+        "gambar": "nugget.jpg",
+        "category": {
+          "id": 4,
+          "nama": "Frozen Food"
+        }
+    },
+    {
+      "id": 1, 
+        "kode": "M-01",
+        "nama": "Bihun",
+        "harga":  4000,
+        "is_ready": true,
+        "gambar": "bihun.jpg",
+        "category": {
+          "id": 5,
+          "nama": "Mie"
+        }
+    },
+    {
+      "id": 2, 
+        "kode": "M-02",
+        "nama": "Mie Keriting",
+        "harga":  6000,
+        "is_ready": true,
+        "gambar": "mie.jpg",
+        "category": {
+          "id": 5,
+          "nama": "Mie"
+        }
+    },
+    {
+      "id": 3, 
+        "kode": "M-03",
+        "nama": "kwetiau",
+        "harga":  4500,
+        "is_ready": true,
+        "gambar": "kwetiau.jpg",
+        "category": {
+          "id": 5,
+          "nama": "Mie"
+        }
     }
+
+
 
     ]
   }
