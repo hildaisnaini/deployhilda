@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/deployhilda/static/css/main.e6c4838d.chunk.css",
+    "main.js": "/deployhilda/static/js/main.5b6e0f77.chunk.js",
+    "main.js.map": "/deployhilda/static/js/main.5b6e0f77.chunk.js.map",
+    "runtime-main.js": "/deployhilda/static/js/runtime-main.9750dab6.js",
+    "runtime-main.js.map": "/deployhilda/static/js/runtime-main.9750dab6.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/deployhilda/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f8a3ee33.chunk.js": "/deployhilda/static/js/2.f8a3ee33.chunk.js",
+    "static/js/2.f8a3ee33.chunk.js.map": "/deployhilda/static/js/2.f8a3ee33.chunk.js.map",
+    "static/js/3.02954675.chunk.js": "/deployhilda/static/js/3.02954675.chunk.js",
+    "static/js/3.02954675.chunk.js.map": "/deployhilda/static/js/3.02954675.chunk.js.map",
+    "index.html": "/deployhilda/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/deployhilda/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.e6c4838d.chunk.css.map": "/deployhilda/static/css/main.e6c4838d.chunk.css.map",
+    "static/js/2.f8a3ee33.chunk.js.LICENSE.txt": "/deployhilda/static/js/2.f8a3ee33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9750dab6.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.f8a3ee33.chunk.js",
+    "static/css/main.e6c4838d.chunk.css",
+    "static/js/main.5b6e0f77.chunk.js"
+  ]
+}
