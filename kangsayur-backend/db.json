@@ -28,7 +28,7 @@
       "nama": "Kangkung",
       "harga": 1500,
       "is_ready": true,
-      "gambar": "kangkung.jpeg",
+      "gambar": "public/Asset/sayuran/kangkung.jpeg",
       "category": {
         "id": 1,
         "nama": "Sayuran"
@@ -419,41 +419,465 @@
       }
     }
   ],
-  "keranjangs": [
+  "keranjangs": [],
+  "pesanans": [
     {
-      "jumlah": 2,
-      "total_harga": 3000,
-      "product": {
-        "id": 1,
-        "kode": "S-01",
-        "nama": "Kangkung",
-        "harga": 1500,
-        "is_ready": true,
-        "gambar": "kangkung.jpeg",
-        "category": {
-          "id": 1,
-          "nama": "Sayuran"
+      "total_bayar": 21500,
+      "menus": [
+        {
+          "jumlah": 3,
+          "total_harga": 4500,
+          "product": {
+            "id": 1,
+            "kode": "S-01",
+            "nama": "Kangkung",
+            "harga": 1500,
+            "is_ready": true,
+            "gambar": "kangkung.jpeg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 14000,
+          "product": {
+            "id": 3,
+            "kode": "S-03",
+            "nama": "Brokoli",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "brokoli.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 3000,
+          "product": {
+            "id": 9,
+            "kode": "S-09",
+            "nama": "Sawi Putih",
+            "harga": 3000,
+            "is_ready": true,
+            "gambar": "sawiputih.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 3
         }
-      },
+      ],
       "id": 1
     },
     {
-      "jumlah": 2,
-      "total_harga": 14000,
-      "product": {
-        "id": 3,
-        "kode": "S-03",
-        "nama": "Brokoli",
-        "harga": 7000,
-        "is_ready": true,
-        "gambar": "brokoli.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Sayuran"
+      "total_bayar": 6000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 2,
+            "kode": "S-02",
+            "nama": "Bayam",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "bayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "product": {
+            "id": 6,
+            "kode": "S-06",
+            "nama": "Bunga Kol",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "bungakol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 2
         }
-      },
+      ],
       "id": 2
+    },
+    {
+      "total_bayar": 1500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1500,
+          "product": {
+            "id": 1,
+            "kode": "S-01",
+            "nama": "Kangkung",
+            "harga": 1500,
+            "is_ready": true,
+            "gambar": "kangkung.jpeg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 19000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": 3,
+            "kode": "S-03",
+            "nama": "Brokoli",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "brokoli.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "keterangan": "hahha",
+          "id": 1
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 10000,
+          "product": {
+            "id": 5,
+            "kode": "S-05",
+            "nama": "Kubis",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "kobis.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 2000,
+          "product": {
+            "id": 2,
+            "kode": "S-02",
+            "nama": "Bayam",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "bayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 4
+        }
+      ],
+      "id": 4
+    },
+    {
+      "total_bayar": 8500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1500,
+          "product": {
+            "id": 1,
+            "kode": "S-01",
+            "nama": "Kangkung",
+            "harga": 1500,
+            "is_ready": true,
+            "gambar": "kangkung.jpeg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": 3,
+            "kode": "S-03",
+            "nama": "Brokoli",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "brokoli.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "total_bayar": 1500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1500,
+          "product": {
+            "id": 1,
+            "kode": "S-01",
+            "nama": "Kangkung",
+            "harga": 1500,
+            "is_ready": true,
+            "gambar": "kangkung.jpeg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "total_bayar": 5000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "product": {
+            "id": 27,
+            "kode": "S-27",
+            "nama": "Telur Puyuh",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "telurpyh.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Lauk Pauk"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "total_bayar": 5000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 5000,
+          "product": {
+            "id": 6,
+            "kode": "S-06",
+            "nama": "Bunga Kol",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "bungakol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "total_bayar": 22000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": 3,
+            "kode": "S-03",
+            "nama": "Brokoli",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "brokoli.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 3,
+          "total_harga": 15000,
+          "product": {
+            "id": 6,
+            "kode": "S-06",
+            "nama": "Bunga Kol",
+            "harga": 5000,
+            "is_ready": true,
+            "gambar": "bungakol.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 9
+    },
+    {
+      "total_bayar": 8500,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1500,
+          "product": {
+            "id": 1,
+            "kode": "S-01",
+            "nama": "Kangkung",
+            "harga": 1500,
+            "is_ready": true,
+            "gambar": "kangkung.jpeg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 7000,
+          "product": {
+            "id": 3,
+            "kode": "S-03",
+            "nama": "Brokoli",
+            "harga": 7000,
+            "is_ready": true,
+            "gambar": "brokoli.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 10
+    },
+    {
+      "total_bayar": 32000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 1000,
+          "product": {
+            "id": 2,
+            "kode": "S-02",
+            "nama": "Bayam",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "bayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 4,
+          "total_harga": 6000,
+          "product": {
+            "id": 1,
+            "kode": "S-01",
+            "nama": "Kangkung",
+            "harga": 1500,
+            "is_ready": true,
+            "gambar": "public/Asset/sayuran/kangkung.jpeg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 2
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 18000,
+          "product": {
+            "id": 30,
+            "kode": "S-30",
+            "nama": "Nugget",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "nugget.jpg",
+            "category": {
+              "id": 4,
+              "nama": "Frozen Food"
+            }
+          },
+          "id": 3
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 3000,
+          "product": {
+            "id": 9,
+            "kode": "S-09",
+            "nama": "Sawi Putih",
+            "harga": 3000,
+            "is_ready": true,
+            "gambar": "sawiputih.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Sayuran"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 4000,
+          "product": {
+            "id": 31,
+            "kode": "S-31",
+            "nama": "Bihun",
+            "harga": 4000,
+            "is_ready": true,
+            "gambar": "bihun.jpg",
+            "category": {
+              "id": 5,
+              "nama": "Mie"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 11
     }
-  ],
-  "pesanans": []
+  ]
 }
